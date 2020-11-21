@@ -24,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(context, SearchResultsActivity.class);
-                context.startActivity(i);
+                startActivity(new Intent(MainActivity.this, SearchResultsActivity.class));
             }
         });
     }
