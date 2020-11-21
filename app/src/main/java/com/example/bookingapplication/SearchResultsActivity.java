@@ -15,7 +15,7 @@ public class SearchResultsActivity extends AppCompatActivity {
     private static final String TAG = "SearchResultsActivity";
 
     private ArrayList<String> mText = new ArrayList<>();
-    private ArrayList<String> mImage = new ArrayList<>();
+    private ArrayList<Integer> mImage = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,16 +30,16 @@ public class SearchResultsActivity extends AppCompatActivity {
 
         Log.d(TAG, "initImageBitMaps: preparing bitmaps.");
         
-        mImage.add("https://www.sustainable-bus.com/wp-content/uploads/2019/12/Schermata-2019-12-06-alle-09.59.28.png");
+        mImage.add(R.drawable.bus1);
         mText.add("Almaty-Astana");
 
-        mImage.add("https://www.irizar.com/wp-content/uploads/2019/11/JAZ_869229.jpg");
+        mImage.add(R.drawable.bus2);
         mText.add("Almaty-Astana");
 
-        mImage.add("https://www.sustainable-bus.com/wp-content/uploads/2019/11/img_9935-1-scaled-e1573890391969.jpg");
+        mImage.add(R.drawable.bus3);
         mText.add("Almaty-Astana");
 
-        mImage.add("https://i.pinimg.com/236x/3d/78/08/3d7808b3510dd42025f78373a0936f72--buses-rv.jpg");
+        mImage.add(R.drawable.bus4);
         mText.add("Almaty-Astana");
 
         initRecyclerView();

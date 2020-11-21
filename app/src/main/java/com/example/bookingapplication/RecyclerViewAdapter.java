@@ -21,10 +21,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private static final String TAG = "RecyclerViewAdapter";
 
     private ArrayList<String> mText = new ArrayList<>();
-    private ArrayList<String> mImage = new ArrayList<>();
+    private ArrayList<Integer> mImage = new ArrayList<>();
     private Context mContext;
 
-    public RecyclerViewAdapter(ArrayList<String> mText, ArrayList<String> mImage, Context mContext) {
+    public RecyclerViewAdapter(ArrayList<String> mText, ArrayList<Integer> mImage, Context mContext) {
         this.mText = mText;
         this.mImage = mImage;
         this.mContext = mContext;
