@@ -4,8 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -16,6 +19,7 @@ public class SearchResultsActivity extends AppCompatActivity {
 
     private ArrayList<String> mText = new ArrayList<>();
     private ArrayList<Integer> mImage = new ArrayList<>();
+    ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +27,14 @@ public class SearchResultsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_search_results);
 
         getImages();
+        listView = findViewById(R.id.listView);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                startActivity(new Intent(SearchResultsActivity.this, SetCustomSeatActivity.class));
+
+            }
+        });
 
     }
 
