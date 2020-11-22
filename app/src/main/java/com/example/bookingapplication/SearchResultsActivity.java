@@ -19,7 +19,7 @@ public class SearchResultsActivity extends AppCompatActivity {
 
     private ArrayList<String> mText = new ArrayList<>();
     private ArrayList<Integer> mImage = new ArrayList<>();
-    ListView listView;
+    RecyclerView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +28,10 @@ public class SearchResultsActivity extends AppCompatActivity {
 
         getImages();
         listView = findViewById(R.id.listView);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onClick(View v) {
                 startActivity(new Intent(SearchResultsActivity.this, SetCustomSeatActivity.class));
-
             }
         });
 

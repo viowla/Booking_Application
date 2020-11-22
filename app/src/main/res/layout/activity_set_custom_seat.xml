@@ -6,84 +6,132 @@
     android:layout_height="match_parent"
     tools:context=".SetCustomSeatActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/tripImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="Trip route"
+        android:textSize="24dp"
+        android:id="@+id/tripRoute"
+        app:layout_constraintTop_toBottomOf="@id/tripImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/firstColumn"/>
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/firstColumn"
         android:padding="5dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tripRoute"
         app:layout_constraintEnd_toStartOf="@id/secondColumn"
         >
         <TableRow>
-            <ImageView
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton1"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton2"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton3"/>
         </TableRow>
         <TableRow>
-            <ImageView
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton7"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton8"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton9"/>
         </TableRow>
         <TableRow>
-            <ImageView
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton13"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton14"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton15"/>
         </TableRow>
         <TableRow>
-            <ImageView
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton19"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton20"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton21"/>
         </TableRow>
         <TableRow>
-            <ImageView
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton25"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton26"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton27"/>
         </TableRow>
 
     </TableLayout>
@@ -92,78 +140,108 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toEndOf="@+id/firstColumn"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tripRoute"
         app:layout_constraintEnd_toEndOf="parent"
         android:padding="5dp">
         <TableRow>
-            <ImageView
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton4"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton5"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton6"/>
         </TableRow>
         <TableRow>
-            <ImageView
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton10"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton11"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton12"/>
         </TableRow>
         <TableRow>
-            <ImageView
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton16"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton17"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton18"/>
         </TableRow>
         <TableRow>
-            <ImageView
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton22"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton23"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton24"/>
         </TableRow>
         <TableRow>
-            <ImageView
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton28"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
-            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton29"/>
+            <ImageButton
                 android:src="@drawable/ic_launcher_background"
                 android:layout_margin="1dp"
-                android:layout_width="60dp"/>
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/seatButton30"/>
         </TableRow>
     </TableLayout>
 
