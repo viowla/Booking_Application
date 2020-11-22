@@ -3,6 +3,7 @@ package com.example.bookingapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,8 +12,9 @@ public class SetCustomSeatActivity extends AppCompatActivity {
 
     ImageView tripImage;
     TextView tripText;
-    ImageButton seat1, seat2, seat3, seat4, seat5, seat6, seat7,seat8,seat9,seat10,seat11,seat12,seat13,seat14,seat15,
-            seat16,seat17,seat18,seat19,seat20,seat21,seat22,seat23,seat24,seat25,seat26,seat27,seat28,
+    Button seat1, seat2, seat3, seat4, seat5, seat6, seat7,seat8,seat9,seat10,
+            seat11,seat12,seat13,seat14,seat15,seat16,seat17,seat18,seat19,seat20,
+            seat21,seat22,seat23,seat24,seat25,seat26,seat27,seat28,
             seat29,seat30;
 
     @Override

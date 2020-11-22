@@ -9,10 +9,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <ImageView
+    <ImageButton
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:src="@drawable/bus1"
         android:id="@+id/imageView"/>
     <TextView
         android:layout_width="match_parent"

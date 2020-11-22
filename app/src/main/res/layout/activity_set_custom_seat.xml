@@ -34,100 +34,146 @@
         app:layout_constraintEnd_toStartOf="@id/secondColumn"
         >
         <TableRow>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
-                android:layout_margin="1dp"
+
+            <Button
+                android:id="@+id/seatButton1"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:id="@+id/seatButton1"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+                android:layout_margin="1dp"
+                android:background="#33ff33"
+                android:text="1"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33" />
+            <Button
+                android:background="#33ff33"
+                android:text="2"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton2"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="3"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton3"/>
         </TableRow>
         <TableRow>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="7"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton7"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="8"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton8"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="9"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton9"/>
         </TableRow>
         <TableRow>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="13"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton13"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="14"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton14"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="15"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton15"/>
         </TableRow>
         <TableRow>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="19"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton19"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="20"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton20"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="21"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton21"/>
         </TableRow>
         <TableRow>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="25"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton25"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="26"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton26"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="27"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
@@ -144,100 +190,145 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:padding="5dp">
         <TableRow>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="4"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton4"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="5"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton5"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="6"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton6"/>
         </TableRow>
         <TableRow>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="10"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton10"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="11"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton11"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="12"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton12"/>
         </TableRow>
         <TableRow>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="16"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton16"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="17"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton17"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="18"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton18"/>
         </TableRow>
         <TableRow>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="22"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton22"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="23"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton23"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="24"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton24"/>
         </TableRow>
         <TableRow>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="28"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton28"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="29"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/seatButton29"/>
-            <ImageButton
-                android:src="@drawable/ic_launcher_background"
+            <Button
+                android:background="#33ff33"
+                android:text="30"
+                android:textColor="#ffffff"
+                app:backgroundTint="#33ff33"
                 android:layout_margin="1dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"

@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -19,7 +21,7 @@ public class SearchResultsActivity extends AppCompatActivity {
 
     private ArrayList<String> mText = new ArrayList<>();
     private ArrayList<Integer> mImage = new ArrayList<>();
-    RecyclerView listView;
+    ImageButton imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +29,9 @@ public class SearchResultsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_search_results);
 
         getImages();
-        listView = findViewById(R.id.listView);
-        listView.setOnClickListener(new View.OnClickListener() {
+        imageView = findViewById(R.id.imageView);
+        imageView.setOnClickListener(new View.OnClickListener(){
+
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SearchResultsActivity.this, SetCustomSeatActivity.class));
